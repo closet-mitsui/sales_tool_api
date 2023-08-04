@@ -1,0 +1,7 @@
+FROM mysql:8.0
+
+ENV MYSQL_DATABASE "sales_tool"
+ENV MYSQL_USER "sales_tool_app"
+ENV MYSQL_PASSWORD "password"
+ENV MYSQL_ROOT_PASSWORD "root"
+ENV LANG "C.UTF-8"
